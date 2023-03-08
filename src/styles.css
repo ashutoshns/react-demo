@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.InputWrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.Input {
+  display: flex;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  /* border-radius: 25px; */
+  height: 40px;
+  width: 50vw;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Add {
+  display: flex;
+  margin-left: 5px;
+  width: 42px;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0 100px;
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li {
+  display: flexbox;
+  line-height: 60px;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+li:first-child {
+  border-top: 2px solid black;
+}
+
+.taskName {
+  display: flex;
+}
+
+.Check {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  right: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Remove {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  right: 0px;
+  padding: 10px;
+  cursor: pointer;
+}
